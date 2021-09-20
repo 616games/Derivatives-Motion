@@ -170,15 +170,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _resetCounter: {fileID: 0}
+  _yPositionBoundary: 0
   _originalFunction:
     _exponent: 2
     _coefficient: -3.8
-    _height: 20
+    _yIntercept: 0
   _derivativeCount: 1
   _derivativeFunction:
     _exponent: 0
     _coefficient: 0
-    _height: 0
+    _yIntercept: 0
   _graphSpeed: 1
   _lineRendererColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!120 &61941660
@@ -405,18 +406,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8057cb60c424b7a46811967977f728c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _resetCounter: {fileID: 0}
+  _resetCounter: {fileID: 11400000, guid: b5f0040249a6e024dbc500b2e1e9eba3, type: 2}
+  _yPositionBoundary: 0
   _originalFunction:
     _exponent: 2
     _coefficient: -0.8
-    _height: 20
+    _yIntercept: 20
   _derivativeCount: 0
   _derivativeFunction:
     _exponent: 0
     _coefficient: 0
-    _height: 0
+    _yIntercept: 0
   _graphSpeed: 1
-  _lineRendererColor: {r: 0, g: 0, b: 0, a: 0}
+  _lineRendererColor: {r: 0.05271244, g: 1, b: 0, a: 1}
 --- !u!120 &463985995
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -642,15 +644,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _resetCounter: {fileID: 0}
+  _yPositionBoundary: 0
   _originalFunction:
     _exponent: 2
     _coefficient: -4.9
-    _height: 20
+    _yIntercept: 0
   _derivativeCount: 1
   _derivativeFunction:
     _exponent: 0
     _coefficient: 0
-    _height: 0
+    _yIntercept: 0
   _graphSpeed: 1
   _lineRendererColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!120 &524142581
@@ -1096,18 +1099,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8057cb60c424b7a46811967977f728c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _resetCounter: {fileID: 0}
+  _resetCounter: {fileID: 11400000, guid: b5f0040249a6e024dbc500b2e1e9eba3, type: 2}
+  _yPositionBoundary: 0
   _originalFunction:
     _exponent: 2
     _coefficient: -4.9
-    _height: 20
+    _yIntercept: 20
   _derivativeCount: 0
   _derivativeFunction:
     _exponent: 0
     _coefficient: 0
-    _height: 0
+    _yIntercept: 0
   _graphSpeed: 1
-  _lineRendererColor: {r: 0, g: 0, b: 0, a: 0}
+  _lineRendererColor: {r: 0, g: 0.13257027, b: 1, a: 1}
 --- !u!120 &941714511
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1332,7 +1336,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: -9.2, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1385,15 +1389,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _resetCounter: {fileID: 0}
+  _yPositionBoundary: 0
   _originalFunction:
     _exponent: 2
     _coefficient: -3.8
-    _height: 20
+    _yIntercept: 0
   _derivativeCount: 2
   _derivativeFunction:
     _exponent: 0
     _coefficient: 0
-    _height: 0
+    _yIntercept: 0
   _graphSpeed: 1
   _lineRendererColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!120 &1033868392
@@ -1589,18 +1594,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8057cb60c424b7a46811967977f728c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _resetCounter: {fileID: 0}
+  _resetCounter: {fileID: 11400000, guid: b5f0040249a6e024dbc500b2e1e9eba3, type: 2}
+  _yPositionBoundary: 0
   _originalFunction:
     _exponent: 2
-    _coefficient: -3.8
-    _height: 20
+    _coefficient: -1.9
+    _yIntercept: 20
   _derivativeCount: 0
   _derivativeFunction:
     _exponent: 0
     _coefficient: 0
-    _height: 0
+    _yIntercept: 0
   _graphSpeed: 1
-  _lineRendererColor: {r: 0, g: 0, b: 0, a: 0}
+  _lineRendererColor: {r: 0.9150943, g: 0.6439286, b: 0.11654504, a: 1}
 --- !u!120 &1058525881
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1857,15 +1863,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _resetCounter: {fileID: 0}
+  _yPositionBoundary: 0
   _originalFunction:
     _exponent: 2
     _coefficient: -0.8
-    _height: 20
+    _yIntercept: 0
   _derivativeCount: 2
   _derivativeFunction:
     _exponent: 0
     _coefficient: 0
-    _height: 0
+    _yIntercept: 0
   _graphSpeed: 1
   _lineRendererColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!120 &1753716316
@@ -2062,15 +2069,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _resetCounter: {fileID: 0}
+  _yPositionBoundary: 0
   _originalFunction:
     _exponent: 2
     _coefficient: -0.8
-    _height: 20
+    _yIntercept: 0
   _derivativeCount: 1
   _derivativeFunction:
     _exponent: 0
     _coefficient: 0
-    _height: 0
+    _yIntercept: 0
   _graphSpeed: 1
   _lineRendererColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!120 &1845956343
@@ -2333,15 +2341,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _resetCounter: {fileID: 0}
+  _yPositionBoundary: 0
   _originalFunction:
     _exponent: 2
     _coefficient: -4.9
-    _height: 20
+    _yIntercept: 0
   _derivativeCount: 2
   _derivativeFunction:
     _exponent: 0
     _coefficient: 0
-    _height: 0
+    _yIntercept: 0
   _graphSpeed: 1
   _lineRendererColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!120 &2018432506
