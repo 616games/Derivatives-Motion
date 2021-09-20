@@ -11,7 +11,7 @@ public class GraphFunctionEquation
     private float _coefficient;
     public float coefficient { get { return _coefficient; } set { _coefficient = value; } }
 
-    [SerializeField, Tooltip("Optional Y-axis intercept of the function.")]
-    private float _height;
-    public float height { get { return _height; } set { _height = value; } }
+    [SerializeField, Tooltip("Optional Y-axis intercept of the function (constant).")]
+    private float _yIntercept;
+    public float yIntercept { get { return _yIntercept; } set { _yIntercept = value; } }
 }
